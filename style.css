@@ -4,13 +4,13 @@
     border: 0;
 }
 
-header {
+main {
     display: flex;
     flex-direction: row;
 }
 
 .navegacao{
-    border-right: #000 2px solid;
+    border-right: #000 1px solid;
     width: 300px;
     height: 100vh;
     background-color: #B26241;
@@ -23,7 +23,7 @@ header {
 .foto-perfil{
     margin-top: 100px;
     border-radius: 50%;
-    border: #000 solid 1px;
+    border: #000 solid 2px;
     width: 200px;
     height: 200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -50,4 +50,40 @@ a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    
+}
+
+a:hover{
+    transform: translateY(-3px) translateX(3px);
+    transition: 1s;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.nome{
+margin-top: 100px;
+}
+
+.nome h1{
+    font-size: 70px;
+}
+
+.social-midia{
+    
+
+}
+
+.social-midia img {
+    margin-top: 50px;
+    width: 45px;
+    padding-left: 20px;
+    }
+
+#linkedin:hover, #github:hover, #instagram:hover, #facebook:hover, #whatsapp:hover {
+    filter: brightness(1.5);
 }
