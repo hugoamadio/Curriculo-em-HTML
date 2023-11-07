@@ -46,16 +46,23 @@ li{
     margin: 10px;
 }
 
+li:hover{
+    transform: translateY(-2px) translateX(2px);
+    text-shadow: 2px 1px 4px #000000;
+    transition: 0.2s;
+}
+
 a{
     text-decoration: none;
-    color: #fff;
+    color: #e4c4b6;
     font-size: 18px;
     
 }
 
 a:hover{
     transform: translateY(-3px) translateX(3px);
-    transition: 1s;
+    color: white;
+    transition: 0.2s;
 }
 
 .conteudo{
@@ -67,6 +74,10 @@ a:hover{
 
 .nome{
 margin-top: 100px;
+}
+
+.sobrenome{
+    color:#B26241;
 }
 
 .nome h1{
@@ -86,4 +97,11 @@ margin-top: 100px;
 
 #linkedin:hover, #github:hover, #instagram:hover, #facebook:hover, #whatsapp:hover {
     filter: brightness(1.5);
+}
+
+.conhecimentos{
+    color: #7B797B;
+    margin-top: 100px;
+    margin-left: 0;
+    font-size: 30px;
 }
